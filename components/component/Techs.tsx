@@ -10,7 +10,9 @@ const Techs = () => {
       </div>
       <div className="flex flex-row -mb-4">    
         {technologies.map((technology) => (
-          <Tech technology={technology} link={technology.link} image={images[technology.src]} key={technology.name} className="z-50"/> 
+          <div className="z-50">
+            <Tech technology={technology} image={images[technology.src]} key={technology.name}/> 
+          </div>
         ))}
       </div>
     </div>

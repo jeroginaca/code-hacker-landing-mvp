@@ -10,7 +10,7 @@ interface Technology {
     link: string;
   }
   
-  const Tech = ({ technology, image }: { technology: Technology, image: string }) => {
+  const Tech = ({ technology,  image }: { technology: Technology, image: string }) => {
     const [hovered, setHovered] = useState(false);
   
     const handleHover = () => {
