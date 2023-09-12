@@ -9,10 +9,8 @@ const Techs = () => {
           <h3 className="text-white  mb-12 text-[24px] tracking-[.10em]">Aprende usando las mejores tecnologias</h3>
       </div>
       <div className="flex flex-row -mb-4">    
-        {technologies.map((technology) => (
-          <div className="z-50" key={technology.name}>
-            <Tech technology={technology} image={images[technology.src]}/> 
-          </div>
+        {technologies.map((technology) => (       
+            <Tech technology={technology} image={images[technology.src]} key={technology.name}/> 
         ))}
       </div>
     </div>
