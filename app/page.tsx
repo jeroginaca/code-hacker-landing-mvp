@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/component"
-import { BlogPosts, Hero, Objetivos, Programa, ProximasFechas } from "@/components/sections"
+import { BlogPosts, HardSoftSkills, Hero, Objetivos, Programa, ProximasFechas } from "@/components/sections"
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <Programa />
       <BlogPosts />
       <Objetivos />
+      <HardSoftSkills />
     </>
   )
 }

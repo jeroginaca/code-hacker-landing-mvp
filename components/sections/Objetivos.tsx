@@ -20,7 +20,7 @@ const Objetivos = () => {
                       alt="logo"
                       className="-ml-12 mr-6"
                     />
-                        <p className=" text-base md:text-[20px]">
+                        <p className="font-extralight md:text-[20px]">
                         En el camino de la programación no hay una sola forma de hacer las cosas. Nosotros aprenderemos una de las tantas que hay, y ese es el secreto, seleccionar algunas tecnologías y especializarnos en ellas. De esta manera nos será más sencillo concentrarnos en un tema puntual y no perdernos entre toda la información que podemos encontrar gratis por internet.
                         </p>
                     </div>
@@ -34,7 +34,7 @@ const Objetivos = () => {
                       alt="logo"
                       className="-ml-12 mr-6"
                     />
-                                                <p className=" text-base md:text-[20px]">
+                                                <p className=" font-extralight md:text-[20px]">
 
                         Tampoco desperdiciaras tu tiempo buscando videos de Youtube para entender lo que hablamos en la clase ya que estará todo explicado en los apuntes. Al finalizar cada proyecto tendrás una aplicación publicada en la web que podrás poner en tu portfolio y conseguir un trabajo.
                         </p>
@@ -49,7 +49,7 @@ const Objetivos = () => {
                       alt="logo"
                       className="-ml-12 mr-6"
                     />
-                                                <p className=" text-base md:text-[20px]">
+                                                <p className=" font-extralight md:text-[20px]">
 
                         Si bien puedes encontrar toda la info que necesitas para ser Full Stack Developer gratis por internet, es fácil perder el rumbo, desmotivarse cuando no te salga algo y así perder interés. 
 Por eso nuestro objetivo es darte una guía que te va a llevar por todos los conceptos de forma clara, práctica y sencilla. Vas a poder leerla y releerla para conseguir un excelente nivel en las tecnologías que aprenderás. 
