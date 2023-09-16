@@ -2,7 +2,10 @@ import React from 'react'
 
 const FAQs = () => {
   return (
-    <div>FAQs</div>
+    <div className='mt-24'>
+     <h3 className='text-[36px] font-bold text-white'>Consulta nuestras preguntas frecuentes</h3>
+
+    </div>
   )
 }
 

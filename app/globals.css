@@ -107,6 +107,19 @@ body{
 .freebie{
   background-image: url("https://res.cloudinary.com/dr3cvyonp/image/upload/v1694853772/curso_gratis_bg_pka6jr.png");
   object-fit: cover;
+}
+
+
+.contact-image{
+  background-image: url("https://res.cloudinary.com/dr3cvyonp/image/upload/v1694865028/bg-contact_rigmdj.png");
+  object-fit: cover;
+
+}
+
+.conviertete{
+  border-radius: 20px;
+background: linear-gradient(144deg, rgba(17, 240, 224, 0.30) -278.56%, rgba(17, 240, 224, 0.30) -78.47%, #1C1C99 91.61%);
+backdrop-filter: blur(5px);
 
 }
 
