@@ -103,3 +103,22 @@ body{
 .unidad-1{
   margin-top: 1.5rem;
 }
+
+.freebie{
+  background-image: url("https://res.cloudinary.com/dr3cvyonp/image/upload/v1694853772/curso_gratis_bg_pka6jr.png");
+  object-fit: cover;
+
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
