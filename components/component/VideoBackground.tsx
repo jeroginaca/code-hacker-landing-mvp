@@ -7,6 +7,7 @@ const VideoBackground = () => {
             autoPlay
             loop
             muted
+            playsInline
             style={{
             objectFit: 'cover',
             width: '100%',
