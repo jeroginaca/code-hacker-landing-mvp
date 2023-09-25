@@ -30,6 +30,9 @@ body{
   margin: 0 auto;
 }
 
+.bg-color{
+  background-color: #06062B;
+}
 
 .hero-content{
   position: relative;
