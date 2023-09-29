@@ -6,7 +6,7 @@ const HardSoftSkills = () => {
     <div className="contenedor">
       <div className="flex flex-col justify-center items-center mt-24">
               <p className="gradient-subtitle font-semibold ">Animate a dar un gran paso</p>
-              <h2 className='mt-[10px] mb-[1rem] text-[28px] md:text-[36px] font-bold '>Hard & Soft Skills, la alianza del éxito</h2>
+              <h2 className='mt-[10px] mb-[1rem] text-[28px] md:text-[36px] font-bold text-center'>Hard & Soft Skills, la alianza del éxito</h2>
       </div>
       <div className="flex flex-col lg:flex-row">
         <div

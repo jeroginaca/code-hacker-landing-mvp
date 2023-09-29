@@ -10,12 +10,11 @@ export default function Home() {
       <Programa />
       <BlogPosts />
       <Objetivos />
-     {/*  
       <HardSoftSkills />
       <Freebie />
       <Payment />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </>
   )
 }
