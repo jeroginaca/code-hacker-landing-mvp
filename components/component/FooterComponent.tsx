@@ -8,7 +8,7 @@ const FooterComponent = () => {
         <div className=" flex flex-col items-center justify-center">
           <Image 
             src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694868306/logo-full_rr2nl7.png"
-            width={371}
+            width={300}
             height={119}
             alt='logo'
           />
