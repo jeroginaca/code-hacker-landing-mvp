@@ -28,6 +28,7 @@ body{
 .contenedor{
   max-width: 1322px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .bg-color{

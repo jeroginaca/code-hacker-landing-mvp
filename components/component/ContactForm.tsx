@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <form className="flex flex-col justify-center items-center">
       <div className="flex flex-col items-start">
-      <div className="flex mt-8">
+      <div className="flex mt-8 flex-col md:flex-row">
         <div>
           <label htmlFor="" className="w-full">
             Nombre:

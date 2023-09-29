@@ -2,8 +2,8 @@ import React from 'react'
 
 const Conviertete = () => {
   return (
-    <div>
-      <div className=" w-full md:w-[900px] conviertete my-24 py-12 px-24 flex justify-between items-center ">
+    <div className='flex justify-center items-center'>
+      <div className=" w-4/5 md:w-[900px] conviertete my-24 py-12 px-24 flex md:flex-row flex-col justify-between items-center ">
         <div>
           <h3 className='text-[36px] font-bold text-white'>¡Conviertete en CodeHacker!</h3>
           <p className="text-white mt-6">No esperes más, con nuestro curso GRATUITO<br/> podras comenzar tu carrera hoy mismo.</p>

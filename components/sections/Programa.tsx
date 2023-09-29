@@ -12,7 +12,7 @@ const Programa = () => {
             </div>
 
             <div className="flex flex-col md:flex-row w-full flex-wrap items-start ml-16">
-                <div className="unidad-1 w-[290px] flex flex-col justify-center items-start">
+                <div className="unidad-1 w-full md:w-[290px] flex flex-col justify-center items-start">
                     <div className="flex justify-center items-center -ml-12">
                     <Image 
                       src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694439448/Logo_qbbelb.png"
@@ -31,7 +31,7 @@ const Programa = () => {
                             <li><Link href="#">Linked In</Link></li>
                         </ul>
                 </div>
-                <div className="unidad-1 w-[290px] flex flex-col justify-center items-start">
+                <div className="unidad-1 w-full md:w-[290px] flex flex-col justify-center items-start">
                     <div className="flex justify-center items-center -ml-12">
                         <Image 
                       src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694439448/Logo_qbbelb.png"
@@ -49,7 +49,7 @@ const Programa = () => {
                             <li><Link href="#">The DOM</Link></li>
                         </ul>
                 </div>
-                <div className="unidad-1 w-[290px] flex flex-col justify-center items-start">
+                <div className="unidad-1 w-full md:w-[290px] flex flex-col justify-center items-start">
                     <div className="flex justify-center items-center -ml-12">
                         <Image 
                       src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694439448/Logo_qbbelb.png"
@@ -69,7 +69,7 @@ const Programa = () => {
                             <li><Link href="#">Portfolio 3D</Link></li>
                         </ul>
                 </div>
-                <div className="unidad-1 w-[290px] flex flex-col justify-center items-start">
+                <div className="unidad-1 w-full md:w-[290px] flex flex-col justify-center items-start">
                     <div className="flex justify-center items-center -ml-12">
                         <Image 
                       src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694439448/Logo_qbbelb.png"

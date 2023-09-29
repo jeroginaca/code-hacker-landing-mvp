@@ -6,15 +6,16 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <ProximasFechas />
+       <ProximasFechas />
       <Programa />
       <BlogPosts />
       <Objetivos />
+     {/*  
       <HardSoftSkills />
       <Freebie />
       <Payment />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
