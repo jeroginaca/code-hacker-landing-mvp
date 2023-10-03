@@ -22,7 +22,7 @@ const Programa = () => {
                     />
                         <h3 className='text-[36px] font-bold'>Unidad 1</h3>
                     </div>
-                        <ul>
+                        <ul className='mt-2'>
                             <li><Link href="#">Figma</Link></li>
                             <li><Link href="#">HTML5</Link></li>
                             <li><Link href="#">CSS3</Link></li>
@@ -41,7 +41,7 @@ const Programa = () => {
                     />
                         <h3 className='text-[36px] font-bold'>Unidad 2</h3>
                     </div>
-                        <ul>
+                        <ul className='mt-2'>
                             <li><Link href="#">Flex Box y CSS Grid</Link></li>
                             <li><Link href="#">Tailwind CSS</Link></li>
                             <li><Link href="#">Terminal (Linea de comandos)</Link></li>
@@ -59,7 +59,7 @@ const Programa = () => {
                     />
                         <h3 className='text-[36px] font-bold'>Unidad 3</h3>
                     </div>
-                        <ul>
+                        <ul className='mt-2'>
                             <li><Link href="#">React APPs:</Link></li>
                             <li><Link href="#">Movie APP</Link></li>
                             <li><Link href="#">Todo List</Link></li>
@@ -79,7 +79,7 @@ const Programa = () => {
                     />
                         <h3 className='text-[36px] font-bold'>Unidad 4</h3>
                     </div>
-                        <ul>
+                        <ul className='mt-2'>
                             <li><Link href="#">NextJS Full Stack APPs:</Link></li>
                             <li><Link href="#">Prompt Sharing</Link></li>
                             <li><Link href="#">Car Hub</Link></li>

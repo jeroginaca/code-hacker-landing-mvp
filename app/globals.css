@@ -114,14 +114,15 @@ body{
 
 .freebie{
   background-image: url("https://res.cloudinary.com/dr3cvyonp/image/upload/v1694853772/curso_gratis_bg_pka6jr.png");
-  object-fit: cover;
+  background-size: cover;
 }
 
 
 .contact-image{
-  background-image: url("https://res.cloudinary.com/dr3cvyonp/image/upload/v1694865028/bg-contact_rigmdj.png");
-  object-fit: cover;
-
+  background-image: url("https://res.cloudinary.com/dr3cvyonp/image/upload/v1696345475/bg-contact-2_v34yxy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .conviertete{
@@ -152,3 +153,33 @@ backdrop-filter: blur(5px);
       padding-top: 130px;
   }
 }
+
+/* START: Footer styles */
+.footer {
+  @apply flex flex-col  mt-5 border-t border-gray-100;
+}
+
+.footer__links-container {
+  @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
+}
+
+.footer__rights {
+  @apply flex flex-col justify-start items-start gap-6;
+}
+
+.footer__links {
+  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
+}
+
+.footer__link {
+  @apply flex flex-col gap-6 text-base min-w-[170px];
+}
+
+.footer__copyrights {
+  @apply flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10;
+}
+
+.footer__copyrights-link {
+  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
+}
+/* END: Footer styles */

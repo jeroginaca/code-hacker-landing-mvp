@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const BlogPosts = () => {
@@ -17,7 +18,7 @@ const BlogPosts = () => {
           >
             En CodeHacker comenzamos <span className="font-bold">desde cero</span>, y te damos toda lo que necesitas para conseguir un empleo bien pago y con proyección. Empieza tu carrera como <span className="font-bold">Full Stack Developer</span> hoy mismo.
           </p>
-          <button className="cta-2 text-[20px] mt-[2rem] md:mt-[3rem] py-[12px] px-[30px] font-bold tracking-[.10em] rounded-[15px]">Consultar</button>
+           <Link href="#contact"><button className="cta-2 text-[20px] mt-[2rem] md:mt-[3rem] py-[12px] px-[30px] font-bold tracking-[.10em] rounded-[15px]">Consultar</button></Link>
         </div>
         <div
           className="md:col-span-2  w-full h-full flex flex-col items-center justify-center p-12 "
@@ -51,7 +52,7 @@ const BlogPosts = () => {
           >
             Te acompañamos durante tus estudios y también <span className="font-bold"> después de graduarte</span>, ya que asesoramos tu búsqueda de empleo y siempre podrás necesitar una mano.
           </p>
-          <button className="cta-2 text-[20px] mt-[2rem] md:mt-[3rem] py-[12px] px-[30px] font-bold tracking-[.10em] rounded-[15px]">Consultar</button>
+           <Link href="#contact"><button className="cta-2 text-[20px] mt-[2rem] md:mt-[3rem] py-[12px] px-[30px] font-bold tracking-[.10em] rounded-[15px]">Consultar</button></Link>
         </div>
       </div>
     </div>

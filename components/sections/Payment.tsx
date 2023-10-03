@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { PaymentCard } from '../component'
+import Link from 'next/link'
 
 const Payment = () => {
   return (
@@ -15,7 +16,7 @@ const Payment = () => {
       <div>
 
       <div
-          className="freebie w-full h-auto shadow-lg rounded-[33px] md:w-[700px] mx-auto mt-8 flex flex-col items-center justify-center p-12 "
+          className=" w-full h-auto shadow-xl rounded-[33px] md:w-[700px] mx-auto mt-8 flex flex-col items-center justify-center p-12  text-white hover:bg-[#020F43] bg-[#06062B] mb-12"
         >
           <div className="flex flex-col justify-center items-center ">
             
@@ -24,16 +25,19 @@ const Payment = () => {
                       width={90}
                       height={90}
                       alt="logo"
-                      className=""
               />
             
-              <h3 className='text-[36px] font-bold text-white'>Promo Lanzamiento</h3>
+              <h3 className='text-[36px] font-bold text-center'>Promo Lanzamiento</h3>
           </div>
 
-          <p className=' text-white'>Pago único de <b>500€</b> (+IVA)
+          <p className='text-center text-[20px] leading-[1.6]'>Pago único de <b>500€</b> <span className="text-[16px]">+IVA</span>
+          <br/>
+          👉 4 meses de clases. <br/>
+          👉 + de 10 proyectos. <br/>
+          👉 Te ayudamos a conseguir empleo <br/>
 </p>
                         
-          <p className="mt-4 gradient-subtitle font-semibold ">Más Info</p>
+          <Link href="#contact"><p className="mt-4 gradient-subtitle font-semibold ">Más Info</p></Link>
         </div>
 
         {/* <PaymentCard /> */}

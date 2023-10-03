@@ -3,7 +3,7 @@ import { Conviertete, FAQs, FooterComponent } from '../component'
 
 const Footer = () => {
   return (
-    <div className='bg-[#06062B] flex flex-col justify-center items-center'>
+    <div className='freebie flex flex-col justify-center items-center'>
       <FAQs/>
       <Conviertete/>
       <FooterComponent/> 

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const HardSoftSkills = () => {
@@ -26,7 +27,7 @@ const HardSoftSkills = () => {
             También vamos a aprender a desarrollar las Soft Skills. Desarrollaremos la confianza para poder vender nuestras habilidades a futuros empleadores. Y hacer networking para conseguir ofertas de empleo que ni siquiera están publicadas.
 
           </p>
-          <p className="mt-8 gradient-subtitle font-semibold ">Más Info</p>
+          <Link href="#contact"><p className="mt-8 gradient-subtitle font-semibold ">Más Info</p></Link>
 
         </div>
         
@@ -47,7 +48,7 @@ const HardSoftSkills = () => {
             Para convertirte en Full Stack Developer en 16 semanas deberás dedicar cuanto más tiempo puedas a desarrollar tus habilidades, ya que todo lo que aprenderemos en 4 meses, quizá podría llevarte 1 o 2 años de aprender por tu cuenta.
 
           </p>
-          <p className="mt-8 gradient-subtitle font-semibold ">Más Info</p>
+          <Link href="#contact"><p className="mt-8 gradient-subtitle font-semibold ">Más Info</p></Link>
           
 
         </div>

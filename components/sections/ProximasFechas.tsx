@@ -41,7 +41,7 @@ const ProximasFechas = () => {
                     <div className="flex flex-col pr-0 lg:pr-16 ">
                         <h4 className="text-[24px] font-bold mb-[1rem]  tracking-wide">Lunes, Miercoles y Viernes</h4>
                         <p className="mb-[2.3rem] mt- tracking-wide">De 18:30 a 21:30hs</p>
-                        <Link href="#" className="proxima-fecha rounded-[10px] -mt-2 py-3 text-center text-[18px] font-[500] tracking-wider">Solicitar Información</Link>
+                        <Link href="#contact" className="proxima-fecha rounded-[10px] -mt-2 py-3 text-center text-[18px] font-[500] tracking-wider">Solicitar Información</Link>
                     </div>
                 </div>
 
