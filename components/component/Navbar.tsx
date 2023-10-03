@@ -26,19 +26,19 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`navbar flex justify-between items-center  text-white fixed w-full pl-[0.5rem] pr-[1.7rem] md:px-[3rem]  z-[10000] ${scrolling ? 'gradient-bg' : ''}`}>
+      <div className={`navbar flex justify-between items-center text-white fixed w-full md:py-1 md:px-[3rem] z-[10000] ${scrolling ? 'gradient-bg' : ''}`}>
         <Link href="/">
           <Image 
             src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694439448/Logo_qbbelb.png"
-            width={95}
-            height={95}
+            width={80}
+            height={80}
             alt="logo"
           />
         </Link>
 
         <NavLinks />
 
-        <Link href="#contact"><button className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-bold tracking-[.10em] rounded-[15px] bg-transparent">Recursos Gratis</button></Link> 
+        <Link href="https://codehackeracademy.notion.site/Web-Designer-8c169f62d5ec4e8b857a9271d1515503?pvs=4" target="_blank" className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-semibold tracking-[.10em]">Recursos Gratis</Link> 
          
         <NavLinksResp />
       </div>

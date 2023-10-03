@@ -4,6 +4,8 @@ import { ContactForm } from '../component'
 
 const Contact = () => {
   return (
+    <section id="contact" className="pt-nav">
+
     <div className="contact-image w-full h-[587px] mt-24 flex flex-col items-center justify-center">
         <div className=" shadow-lg rounded-lg p-6 md:p-24 bg-white flex flex-col justify-center items-center">
           <div className="flex justify-center items-center ">
@@ -22,6 +24,8 @@ const Contact = () => {
                 <ContactForm />
         </div>
     </div>
+    </section>
+
   )
 }
 

@@ -20,6 +20,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Poppins', sans-serif;
   color: var(--primary-color);
@@ -139,3 +143,12 @@ backdrop-filter: blur(5px);
   scrollbar-width: none; /* Firefox */
 }
 
+.pt-nav{
+  padding-top: 100px;
+}
+
+@media(max-width: 600px){
+  .pt-nav{
+      padding-top: 130px;
+  }
+}

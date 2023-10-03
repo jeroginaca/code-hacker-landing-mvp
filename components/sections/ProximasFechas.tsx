@@ -13,7 +13,7 @@ const ProximasFechas = () => {
                 <div className="flex flex-col md:flex-row w-full justify-between items-center">
                     <div className="flex items-center justify-start -ml-16 md:-ml-0 mb-4 md:mb-0" >
                         <img src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1688110066/CodeHacker/Exclamacio%CC%81n_dyeywa.png" alt="" className="w-[48px] md:mr-[10px] "/>
-                        <p className="">11 de Septiembre 2023</p>
+                        <p className="">6 de Noviembre 2023</p>
                     </div>
                     <div className="flex items-center">
                         <p className="ml-4 md:ml-0 my-4 md:my-0 mr-[5rem] md:mr-[3rem] tracking-wider ">ONLINE</p>
