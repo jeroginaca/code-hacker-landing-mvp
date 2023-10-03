@@ -150,7 +150,7 @@ backdrop-filter: blur(5px);
 
 @media(max-width: 600px){
   .pt-nav{
-      padding-top: 130px;
+      padding-top: 80px;
   }
 }
 

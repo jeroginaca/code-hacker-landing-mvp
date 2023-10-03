@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`navbar flex justify-between items-center text-white fixed w-full md:py-1 md:px-[3rem] z-[10000] ${scrolling ? 'gradient-bg' : ''}`}>
+      <div className={`navbar flex justify-between items-center text-white fixed w-full md:py-1 pr-4 md:pr-0 md:px-[3rem] z-[10000] ${scrolling ? 'gradient-bg' : ''}`}>
         <Link href="/">
           <Image 
             src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694439448/Logo_qbbelb.png"

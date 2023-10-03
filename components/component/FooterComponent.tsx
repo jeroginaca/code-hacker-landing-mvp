@@ -34,7 +34,7 @@ const FooterComponent = () => {
             </div>
           </div>
           <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100/10 text-white/40 sm:px-16 px-6 py-10">
-            <p>2023 Carhub. CodeHacker Academy</p>
+            <p>2023 CodeHacker Academy</p>
             <div className="footer__copyrights-link">
                 <Link href="/" className="text-gray-500">
                     Política de Privacidad
@@ -45,56 +45,7 @@ const FooterComponent = () => {
             </div>
         </div>
    </footer>
-    {/* <div className=" flex flex-col md:flex-row justify-between w-full items-start">
-        <div className=" flex flex-col items-center justify-center">
-          <Image 
-            src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694868306/logo-full_rr2nl7.png"
-            width={300}
-            height={119}
-            alt='logo'
-          />
-          <p className="text-white">Una nueva forma de estudiar Full Stack Developer</p>
-        </div>
-        <div className="flex flex-col md:flex-row gap-12">
-          <div>
-            <p className="font-semibold text-white">Redes</p>
-            <ul>
-              <li className="text-white font-extralight">
-                Instagram
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p className="font-semibold text-white">Contacto</p>
-            <ul>
-              <li className="text-white font-extralight">
-                Algo
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p className="font-semibold text-white">Usefull Links</p>
-            <ul>
-              <li className="text-white font-extralight">
-                Algo
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        
-        </div>
-        <div className="h-[1px] w-[90%] mx-auto bg-white/50 my-6"/>
-
-        <div className=" flex flex-col md:flex-row justify-between w-full items-start">
-          <p className="text-white/70">
-            CodeHacker Academy 2023
-          </p>
-          <p className="text-white/70">
-            Redes
-          </p>
-
-        </div> */}
+    
         </div>
   )
 }

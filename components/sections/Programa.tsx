@@ -6,12 +6,12 @@ const Programa = () => {
   return (
     <section id="programa" className="pt-nav">
         <div className="contenedor w-[90%] xl:w-full gradient-bg p-[5rem] rounded-[20px]">
-            <div className="programa-title lg:ml-8 lg:mb-[1rem]">
+            <div className="programa-title -ml-10 lg:ml-8 lg:mb-[1rem]">
                 <h2 className="text-[36px] lg:text-[48px] uppercase font-bold">Programa</h2>
                 <p className='text-[12px] lg:text-[16px] text-white/70'>Duración: 16 semanas - Lunes, Miercoles y Viernes de 18:30 a 21:30hs</p>
             </div>
 
-            <div className="flex flex-col md:flex-row w-full flex-wrap items-start ml-16">
+            <div className="flex flex-col md:flex-row w-full flex-wrap items-start ml-0 md:ml-16">
                 <div className="unidad-1 w-full md:w-[290px] flex flex-col justify-center items-start">
                     <div className="flex justify-center items-center -ml-12">
                     <Image 

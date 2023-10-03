@@ -15,18 +15,18 @@ const NavLinksResp = () => {
       className="w-[30px] cursor-pointer"
       onClick={() => setToggle(!toggle)}
     />
-    <div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
-      <ul className="list-none flex justify-end items-start flex-col gap-4">
+    <div className={`${!toggle ? "hidden" : "flex"} p-6 absolute top-20 rounded-lg -right-8 mx-4 my-2 w-2/3 freebie z-10`}>
+      <ul className="list-none flex justify-end items-start flex-col gap-4 py-2">
           {navLinks.map((link) => (
             <li key={link.id} className={`${
-              active === link.title ? "text-white" : "text-secondary"
-            } font-poppins font-medium cursor-pointer text-[16px]`}
+              active === link.title ? "text-white" : "text-white"
+            } font-poppins font-medium cursor-pointer text-2xl my-4 ml-4 mr-12`}
               onClick={() => {
                 setToggle(!toggle);
                 setActive(link.title)}}
             >
               <a href={`#${link.id}`}>
-                {link.title}
+                {link.title} 
               </a>
             </li>
           ))}
