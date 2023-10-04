@@ -16,7 +16,7 @@ const Payment = () => {
       <div>
 
       <div
-          className=" w-full h-auto shadow-xl rounded-[33px] md:w-[700px] mx-auto mt-8 flex flex-col items-center justify-center p-12  text-white hover:bg-[#020F43] bg-[#06062B] mb-12"
+          className=" w-[95%] h-auto shadow-xl rounded-[33px] md:w-[700px] mx-auto mt-8 flex flex-col items-center justify-center p-6 md:p-12  text-white hover:bg-[#020F43] bg-[#06062B] mb-12"
         >
           <div className="flex flex-col justify-center items-center ">
             
@@ -30,14 +30,14 @@ const Payment = () => {
               <h3 className='text-[36px] font-bold text-center'>Promo Lanzamiento</h3>
           </div>
 
-          <p className='text-center text-[20px] leading-[1.6]'>Pago único de <b>500€</b> <span className="text-[16px]">+IVA</span>
+          <p className='mt-[15px] text-center text-[20px] leading-[1.7]'>Pago único de <b>500€</b> <span className="text-[16px]">+IVA</span>
           <br/>
           👉 4 meses de clases. <br/>
           👉 + de 10 proyectos. <br/>
           👉 Te ayudamos a conseguir empleo <br/>
 </p>
                         
-          <Link href="#contact"><p className="mt-4 gradient-subtitle font-semibold ">Más Info</p></Link>
+          <Link href="mailto:codehackeracademy@gmail.com"><p className="mt-6 gradient-subtitle font-semibold ">Más Info</p></Link>
         </div>
 
         {/* <PaymentCard /> */}

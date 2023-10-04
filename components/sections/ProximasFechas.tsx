@@ -67,14 +67,14 @@ const ProximasFechas = () => {
                             <h4 className="text-[24px] font-bold my-3 lg:my-[2.3rem] tracking-wide">Lunes, Miercoles y Viernes</h4>
                             <p className="mb-[2.3rem] tracking-wide">De 18:30 a 21:30hs</p>
                         </div>
-                        <Link href="#" className="proxima-fecha rounded-[10px] text-center text-[18px] font-[500] tracking-wider flex justify-center items-center py-3">Solicitar Información</Link>
+                        <Link href="#contact" className="proxima-fecha rounded-[10px] text-center text-[18px] font-[500] tracking-wider flex justify-center items-center py-3">Solicitar Información</Link>
                     </div>
                 </div>
 
 
             </div>
 
-           <Link href="#"> <p className=" mt-[3rem] gradient-subtitle font-semibold ">Más info</p></Link>
+           <Link href="mailto:codehackeracademy@gmail.com"> <p className=" mt-[3rem] gradient-subtitle font-semibold ">Más info</p></Link>
 
         </div>
         </>

@@ -8,13 +8,13 @@ const Freebie = () => {
       <div className="w-full py-12 mt-10 freebie">
         <div className="contenedor">
           <div className="flex flex-col justify-center items-center">
-                  <h2 className=' mb-[1rem] text-[28px] md:text-[36px] font-bold text-white mt-4'>
-                    ¿Quieres una <span className="gradient-title">prueba gratis?</span>
+                  <h2 className='text-center mb-[1rem] text-[28px] md:text-[36px] font-bold text-white mt-4'>
+                    ¿Quieres una <br className="flex md:hidden" /> <span className="gradient-title">prueba gratis?</span>
                   </h2>
           </div>
           <div className="flex flex-col-reverse lg:flex-row items-center">
             <div
-              className=" w-full h-full flex flex-col items-start justify-center p-12 "
+              className=" w-full h-full flex flex-col items-start justify-center p-6 md:p-12 "
             >
                 <p className="gradient-subtitle font-semibold ">Comienza hoy mismo</p>
 
@@ -51,7 +51,7 @@ const Freebie = () => {
             </div>
             
             <div
-              className=" w-full h-full flex flex-col items-center justify-center mt-8 lg:mt-0 mb-2 lg:mb-0"
+              className="w-[90%] md:w-full h-full flex flex-col items-center justify-center mt-8 lg:mt-0 mb-2 lg:mb-0"
             >
               <Image
                 src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1694853771/curso_gratis_previa_ld7pvy.png"

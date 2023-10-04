@@ -15,9 +15,9 @@ const Contact = () => {
                         height={50}
                         alt="logo"
                 />
-                <h3 className='text-[36px] font-bold'>PONETE EN CONTACTO</h3>
+                <h3 className='ml-4 md:ml-3 text-[36px] font-bold'>PONETE EN CONTACTO</h3>
             </div>
-                <p className="text-center">
+                <p className="text-center mt-2">
                 Dejanos tus datos y te contactaremos <br/> para concretar una reunión
                 </p>
             <div className="w-full">

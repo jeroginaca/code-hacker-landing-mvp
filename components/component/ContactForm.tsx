@@ -82,7 +82,7 @@ const ContactForm = () => {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="¿Cuál es tu nombre completo?"
-                  className='bg-[#f8f8f8] md:w-[600px] py-4 px-6 placeholder:text-secondary  rounded-lg outline-none border-none font-medium'
+                  className='bg-[#f8f8f8] w-[300px] md:w-[600px] py-4 px-6 placeholder:text-secondary  rounded-lg outline-none border-none font-medium'
                   />
               </label>
               <label className='flex flex-col'>
