@@ -54,7 +54,7 @@ const Freebie = () => {
               className="w-[90%] md:w-full h-full flex flex-col items-center justify-center mt-8 lg:mt-0 mb-2 lg:mb-0 pt-0 md:pt-12"
             >
               <Image
-                src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1696443469/TapaCursoGratis2_yt6kgw.png"
+                src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1696444215/TapaCursoGratis2_rzehja.png"
                 alt=""
                 width={417}
                 height={371}
