@@ -8,7 +8,7 @@ const Freebie = () => {
       <div className="w-full py-12 mt-10 freebie">
         <div className="contenedor">
           <div className="flex flex-col justify-center items-center">
-                  <h2 className='text-center mb-[1rem] text-[28px] md:text-[36px] font-bold text-white mt-4'>
+                  <h2 className='text-center mb-[1rem] text-[38px] md:text-[36px] font-bold text-white mt-4'>
                     ¿Quieres una <br className="flex md:hidden" /> <span className="gradient-title">prueba gratis?</span>
                   </h2>
           </div>

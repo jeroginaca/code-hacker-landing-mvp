@@ -103,12 +103,12 @@ export const footerLinks = [
   {
     title: "Siguenos en nuestras redes:",
     links: [
-      { title: "Linkedin", url: "/" },
-      { title: "Instagram", url: "/" },
-      { title: "TikTok", url: "/" },
-      { title: "Twitter", url: "/" },
-      { title: "Facebook", url: "/" },
-      { title: "Youtube", url: "/" },
+      { title: "Linkedin", url: "https://www.linkedin.com/company/codehackeracademy" },
+      { title: "Instagram", url: "https://www.instagram.com/codehacker.academy/" },
+      { title: "TikTok", url: "https://www.tiktok.com/@codehacker.academy" },
+      { title: "Twitter", url: "https://twitter.com/CodeHacker_acad" },
+      { title: "Facebook", url: "https://www.facebook.com/CodeHackerAcademy/" },
+      { title: "Youtube", url: "https://www.youtube.com/channel/UC1rBKvqLxrXHdmgzag1dV8w" },
     ],
   },
 ];

@@ -9,7 +9,7 @@ const BlogPosts = () => {
     <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mt-12">
       <div className="md:col-span-3 w-full h-full flex flex-col items-start justify-center p-6 md:p-12 order-2 md:order-1">
         <p className="gradient-subtitle font-semibold ">Animate a dar un gran paso</p>
-        <h2 className='mt-[10px] mb-[1rem] text-[28px] md:text-[36px] font-bold '>Comienza sin conocimientos y conviértete en un experto</h2>
+        <h2 className='mt-[10px] mb-[1rem] text-[28px] md:text-[36px] font-bold '>Comienza sin conocimientos, te guiamos desde el comienzo</h2>
         <p className="font-light text-[16px] opacity-70 leading-[210%]">
           En CodeHacker comenzamos <span className="font-bold">desde cero</span>, y te damos toda lo que necesitas para conseguir un empleo bien pagado y con proyección. Empieza tu carrera como <span className="font-bold">Full Stack Developer</span> hoy mismo.
         </p>

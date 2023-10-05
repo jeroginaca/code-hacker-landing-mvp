@@ -50,7 +50,7 @@ const Objetivos = () => {
                     />
                         <p className="font-extralight md:text-[20px] -ml-8 md:ml-0 w-[300px] md:w-full">
                         Si bien puedes encontrar toda la info que necesitas para ser Full Stack Developer gratis por internet, es fácil perder el rumbo, desmotivarse cuando no te salga algo y así perder interés. 
-Por eso nuestro objetivo es darte una guía que te va a llevar por todos los conceptos de forma clara, práctica y sencilla. Vas a poder leerla y releerla para conseguir un excelente nivel en las tecnologías que aprenderás. 
+Por eso nuestro objetivo es darte una guía que te va a llevar por todos los conceptos de forma clara, práctica y sencilla. Vas a poder leerla y releerla para conseguir un excelente nivel en las tecnologías que aprendas. 
 Cuando termines tus 4 meses de Bootcamp te sentirás seguro y motivado tanto para salir a buscar un empleo como para seguir aprendiendo más y más.
                         </p>
                     </div>
