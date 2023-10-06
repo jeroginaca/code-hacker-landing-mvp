@@ -37,7 +37,7 @@ const Payment = () => {
           👉 Te ayudamos a conseguir empleo <br/>
 </p>
                         
-          <Link href="mailto:codehackeracademy@gmail.com"><p className="mt-6 gradient-subtitle font-semibold ">Más Info</p></Link>
+          <Link href="#contact"><p className="mt-6 gradient-subtitle font-semibold ">Más Info</p></Link>
         </div>
 
         {/* <PaymentCard /> */}

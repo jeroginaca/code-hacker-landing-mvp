@@ -74,7 +74,7 @@ const ProximasFechas = () => {
 
             </div>
 
-           <Link href="mailto:codehackeracademy@gmail.com"> <p className=" mt-[3rem] gradient-subtitle font-semibold ">Más info</p></Link>
+           <Link href="#contact"> <p className=" mt-[3rem] gradient-subtitle font-semibold ">Más info</p></Link>
 
         </div>
         </>
