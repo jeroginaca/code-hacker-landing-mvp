@@ -5,7 +5,7 @@ import React from 'react'
 
 const FooterComponent = () => {
   return (
-   <div className="contenedor w-full pb-24">
+   <div className="contenedor w-full pb-10">
     <footer className="flex flex-col text-black-100">
           <div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
             <div className="flex flex-col justify-start items-start gap-6">
@@ -33,7 +33,7 @@ const FooterComponent = () => {
             ))}
             </div>
           </div>
-          <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100/10 text-white/40 sm:px-16 px-6 py-10">
+          <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100/10 text-white/40 sm:px-16 px-6 pt-10">
             <p>2023 CodeHacker Academy</p>
             <div className="footer__copyrights-link">
                 <Link href="/" className="text-gray-500">

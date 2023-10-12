@@ -3,7 +3,7 @@ import { BlogPosts, Contact, Footer, Freebie, HardSoftSkills, Hero, Objetivos, P
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-white">
       <Navbar />
       <Hero />
        <ProximasFechas />
@@ -15,6 +15,6 @@ export default function Home() {
       <Payment />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }

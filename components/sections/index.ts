@@ -8,6 +8,7 @@ import Objetivos from "./Objetivos";
 import Payment from "./Payment";
 import Programa from "./Programa";
 import ProximasFechas from "./ProximasFechas";
+import Contact2 from "./Contact2";
 
 export {
   BlogPosts,
@@ -19,5 +20,6 @@ export {
   Objetivos,
   Payment,
   Programa,
+  Contact2,
   ProximasFechas,
 };

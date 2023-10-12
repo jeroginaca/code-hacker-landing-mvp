@@ -38,7 +38,7 @@ const Navbar = () => {
 
         <NavLinks />
 
-        <Link href="https://codehackeracademy.notion.site/Web-Designer-8c169f62d5ec4e8b857a9271d1515503?pvs=4" target="_blank" className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-semibold tracking-[.10em]">Recursos Gratis</Link> 
+        <Link href="/curso-gratis" className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-semibold tracking-[.10em]">Recursos Gratis</Link> 
          
         <NavLinksResp />
       </div>

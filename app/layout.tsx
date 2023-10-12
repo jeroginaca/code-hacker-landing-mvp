@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} hide-scrollbar`}>{children}</body>
+      <body className={`${inter.className} hide-scrollbar bg-[#07072C]`}>{children}</body>
     </html>
   )
 }
