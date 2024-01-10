@@ -30,7 +30,7 @@ const Payment = () => {
               <h3 className='text-[36px] font-bold text-center'>Promo Lanzamiento</h3>
           </div>
 
-          <p className='mt-[15px] text-center text-[20px] leading-[1.7]'>Pago único de <b>500€</b> <span className="text-[16px]">+IVA</span>
+          <p className='mt-[15px] text-center text-[20px] leading-[1.7]'>Pago único de <b>500€</b>
           <br/>
           👉 4 meses de clases. <br/>
           👉 + de 10 proyectos. <br/>
