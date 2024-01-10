@@ -24,7 +24,7 @@ export default async function SlugPage({
       image: ({ value }: { value: any }) => (
         <Image
           src={urlFor(value).url()}
-          alt="Image alt"
+          alt="Image"
           className="rounded-lg"
           width={800}
           height={800}
