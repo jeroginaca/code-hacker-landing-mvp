@@ -11,6 +11,7 @@ import mongodb from "./tech/mongodb.png";
 import redux from "./tech/redux.png";
 import typescript from "./tech/typescript.png";
 import next from "./tech/next.png";
+import codex from "./projects/codex.png";
 
 
 export const images: Record<string, any> = {
@@ -28,6 +29,7 @@ export const images: Record<string, any> = {
   next,
   mongodb,
   three,
+  codex,
 
 };
 
