@@ -132,7 +132,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: codex,
+    image: "codex",
     
     source_code_link: "https://github.com/jeroginaca/codex",
     live_site_link: "https://codex-app-beta.vercel.app/",
@@ -155,7 +155,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carHub,
+    image: "carHub",
     source_code_link: "https://github.com/jeroginaca/car-showcase",
     live_site_link: "https://car-showcase-olive-chi.vercel.app/",
 
@@ -178,7 +178,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: promptopia,
+    image: "promptopia",
     source_code_link: "https://github.com/jeroginaca/promptopia",
     live_site_link: "https://promptopia-phi-olive.vercel.app/",
 
@@ -201,7 +201,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: musicApp,
+    image: "musicApp",
     source_code_link: "https://github.com/jeroginaca/music-app",
     live_site_link: "https://music-app-mu-three.vercel.app/",
   },
@@ -223,7 +223,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: youtubeClone,
+    image: "youtubeClone",
     source_code_link: "https://github.com/jeroginaca/youtube-clone",
     live_site_link: "https://youtube-clone-one-sage.vercel.app/",
 
@@ -246,7 +246,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: movieApp,
+    image: "movieApp",
     source_code_link: "https://github.com/jeroginaca/react-movie-app",
     live_site_link: "https://react-movie-app-phi-bay.vercel.app/",
 
